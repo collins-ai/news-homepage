@@ -1,0 +1,228 @@
+:root {
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: "inter";
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Boldinter";
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "ExtraBoldinter";
+    src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+}
+body {
+    font-size: 1.5rem;
+    font-family: "inter";
+    padding: 4.8rem;
+    color: hsl(236, 13%, 42%);
+    @media screen and (max-width: 768px) {
+        padding: 1.2rem;
+    }
+}
+header {
+    margin-bottom: 3.6rem;
+    position: relative;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 2.4rem;
+    }
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    padding-left: 2.4rem;
+    color: hsl(233, 8%, 79%);
+}
+nav a:hover {
+    color: hsl(5, 85%, 63%);
+}
+.close {
+    display: none;
+    position: absolute;
+}
+.menu {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 2%;
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+    @media screen and (max-width: 768px) {
+        gap: 4.8rem;
+    }
+}
+.one {
+    display: flex;
+    gap: 2.4rem;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.three {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8rem;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+.four {
+    display: flex;
+    gap: 3rem;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+}
+picture img {
+    width: 100%;
+}
+.desktop {
+    display: block;
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+.mobile {
+    display: none;
+    @media screen and (max-width: 1024px) {
+        display: block;
+    }
+}
+.head {
+    font-family: "ExtraBoldinter";
+    font-size: 2.5rem;
+    line-height: 1;
+    color: hsl(240, 100%, 5%);
+    @media screen and (min-width: 768px) {
+        width: 40%;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+}
+.content {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.4rem;
+    @media screen and (min-width: 768px) {
+        width: 45%;
+    }
+}
+.content button {
+    background: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    font-family: "Boldinter";
+    letter-spacing: .4rem;
+    max-width: 19rem;
+}
+.content button:hover {
+    background: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+article {
+    background: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+    padding: 2rem;
+}
+article .title {
+    color: hsl(35, 77%, 62%);
+    font-family: "ExtraBoldinter";
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+article a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    font-family: "Boldinter";
+    font-size: 1.5rem;
+}
+article a:hover {
+    color: hsl(35, 77%, 62%);
+}
+article h2 {
+    margin-bottom: 1rem;
+}
+article .hea {
+    margin-top: 2rem;
+}
+article .par {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+section {
+    display: flex;
+    gap: 2rem;
+    @media screen and (min-width: 768px) {
+        width: 33%;
+    }
+}
+section img {
+    width: 30%;
+    @media screen and (min-width: 425px) {
+        width: 20%;
+    }
+    @media screen and (min-width: 800px) {
+        width: 30%;
+    }
+}
+section .span1 {
+    display: block;
+    color: hsl(5, 85%, 63%);
+    font-size: 2.5rem;
+}
+section .span2 {
+    display: block;
+    margin-bottom: 1rem;
+}
+section a {
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+    font-family: "Boldinter";
+    font-size: 1.5rem;
+}
+section a:hover {
+    color: hsl(5, 85%, 63%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(5, 85%, 63%);
+    margin-top: 3rem;
+    @media screen and (max-width: 768px) {
+        font-size: .9rem;
+    }
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
