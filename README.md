@@ -10,16 +10,14 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/collins-ai/news-homepage.git)
+- Live Site URL: [Add live site URL here](https://collins-ai.github.io/news-homepage/)
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ## Author
 
